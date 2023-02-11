@@ -38,5 +38,5 @@ def main(query):
     all_df.to_csv("./data/AllNews.csv", index=False, encoding="utf-8-sig")
 
 if __name__=="__main__":
-    query = "즉시배송+이커머스+"
+    query = "의무화"
     main(query)
